@@ -1,0 +1,20 @@
+.parallax {
+    background-image: url('https://d3fvlpdr5b7667.cloudfront.net/wp-content/uploads/2020/06/blog-css-parallax.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* altura igual à altura da tela do dispositivo */
+  }
+  
+  .parallax-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+  }
+
+  
+  
